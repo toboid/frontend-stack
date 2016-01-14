@@ -12,6 +12,7 @@ Included modules so far:
 * React Templates
 * PageJS
 * moment
+* twitter bootstrap
 
 Build tools:
 * Gulp
