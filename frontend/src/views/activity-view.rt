@@ -1,0 +1,15 @@
+<rt-require dependency="moment" as="moment"/>
+<div>
+	<h2>{this.state.data.name}</h2>
+	<div class="well">
+
+		<span>Time : {moment.utc(this.state.data.moving_time*1000).format("HH:mm:ss")}</span><br />
+		<span>Distance {(this.state.data.distance/1000).toFixed(2)} km</span><br />
+		<span>Average heartrate : {this.state.data.average_heartrate}</span><br />
+		<span>Max heartrate : {this.state.data.max_heartrate}</span><br />
+		<span>Average cadence : {this.state.data.average_cadence}</span><br />
+		<span>Average speed : {(this.state.data.average_speed*3.6).toFixed(2)} km/h</span><br />
+		<span>Max speed : {(this.state.data.max_speed*3.6).toFixed(2)} km/h</span><br />
+
+	</div>
+</div>

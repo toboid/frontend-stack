@@ -1,0 +1,6 @@
+<div class="athleteView">
+<h1>Your Strava profile</h1>
+<h3 class="name">{this.state.firstname} {this.state.lastname}</h3>
+
+</div>
+

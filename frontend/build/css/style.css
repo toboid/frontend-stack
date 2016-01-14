@@ -1,0 +1,78 @@
+body, html,#content{
+	width:100%;
+	height:100%;
+	padding:0px;
+}
+
+.eventsContainer{
+	height:100%;
+	width:100%;
+	min-height: 250px;
+	padding:0px 10px;
+	box-sizing: border-box;
+	background-color:#ececec;
+	border-left: 1px solid #d6d6d6;
+	position:relative;
+	float:left;
+}
+
+.event{
+	border: 1px solid #d6d6d6;
+	border-bottom: 5px solid #046380;
+	background-color: #fff;
+	position:absolute;
+	box-sizing: border-box;
+	display: block;
+	width:100%;
+	overflow:hidden;
+}
+
+.event h1.title{
+	margin:7px 7px 4px 7px;
+	font-size:14px;
+	color:#0c0c0c;
+}
+
+.event p.description{
+	margin:4px 7px 4px 7px;
+	font-size:12px;
+	line-height: 14px;
+}
+
+.event.medium h1.title{
+	font-size:10px;
+}
+
+.event.small h1.title{
+	display:none;
+}
+
+.event.medium p.description{
+	font-size:10px;
+	line-height: 12px;
+}
+
+.event.small p.description{
+	display:none;
+}
+
+.event.short p.description{
+	display:none;
+}
+
+.event.vshort p.description, .event.vshort h1.title{
+	display:none;
+}
+
+@media screen and (max-height: 400px), (max-width: 800px) {
+	.event h1.title{
+		font-size:9px;
+		margin-top:2px;
+	}
+	.event.medium h1.title{
+		display:none;
+	}
+	.event p.description{
+		font-size:9px;
+	}
+}

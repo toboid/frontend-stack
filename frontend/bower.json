@@ -1,0 +1,24 @@
+{
+  "name": "Hudl coding challenge",
+  "version": "0.0.1",
+  "authors": [
+    "Laurent Zuijdwijk <laurent@climbingaround.com>"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.1",
+    "moment": "~2.11.1"
+  }
+}
