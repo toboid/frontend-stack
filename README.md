@@ -19,4 +19,15 @@ Build tools:
 * Rollup/Babel
 * jshint
 
+# To investigate / implement
+* live-reload
+* build dist (gulp)
+* feature folders
+* bootstrap - factories
+* server-side render
+* generators/scaffolding
+* testing
+  * unit - tape.js
+  * integration - cucumber.js? any others?
+  * should for assertions
 
